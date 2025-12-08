@@ -8,10 +8,13 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:soma": "node dist/soma/server/server.mjs",
-    "buildProd": "ng build --configuration production ",
-    "deployProd": "npx angular-cli-ghpages --dir=dist/soma/browser",
-    "pp": "npm run build && npm run deployProd"
+    "buildProd": "ng build --configuration production",
+    "deployProd": "npx angular-cli-ghpages --dir=dist/soma/browser --branch=gh-pages --repo=https://github.com/alan-diaz/marci.git",
+    "deployStage": "npx angular-cli-ghpages --dir=dist/soma/browser --branch=gh-pages --repo=https://github.com/alan-diaz/marci-stage.git",
+    "pp": "npm run buildProd && npm run deployProd",
+    "pps": "npm run buildProd && npm run deployStage"
   },
+  
   "private": true,
   "dependencies": {
     "@angular/cdk": "^19.2.16",
