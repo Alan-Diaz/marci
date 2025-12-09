@@ -15,8 +15,8 @@
 }
 
 .marci-mkt {
-    width: 20rem;
-    height: 20rem;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 .marci-mkt-phone{
