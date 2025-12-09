@@ -1,30 +1,39 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light navshadow">
-  <img src="assets/logo.png" class="img-fluid img" alt="">
-  
-  <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
-    <h1 class="head-title">Marci </h1>
-    <div class="p-4">
-        <ul class="navbar-nav gap-5">
-        <li class="nav-item active">
-        <a class="nav-link" href="#valores">Valores</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#servicios">Servicios</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#workflow">Workflow</a>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-main" type="button">
-            <a 
-              class="link-wp" 
-              href="https://wa.me/{{phone}}?text=Hola,%20quiero%20más%20info" 
-              target="_blank">
-              Contacto
-            </a>
-          </button>
-        </li>
-        </ul>
+<nav class="navbar navbar-light bg-light navshadow">
+  <div class="container-fluid">
+
+    <img src="assets/logo.png" class="img-fluid img" alt="">
+
+    <!-- BOTÓN HAMBURGUESA SOLO MOBILE -->
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENÚ DESKTOP -->
+    <div class="d-none d-md-flex gap-5 align-items-center ms-auto">
+      <a class="nav-link" href="#valores">Valores</a>
+      <a class="nav-link" href="#servicios">Servicios</a>
+      <a class="nav-link" href="#workflow">Workflow</a>
+      <a class="btn btn-main link-wp" href="#" target="_blank">Contacto</a>
     </div>
+
+    <!-- MENÚ MOBILE (OFFCANVAS) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title head-title">Marci</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#workflow">Workflow</a></li>
+          <li class="nav-item">
+            <a class="btn btn-main link-wp" href="https://wa.me/{{phone}}?text=Hola,%20quiero%20más%20info" target="_blank">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 </nav>

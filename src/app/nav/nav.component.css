@@ -2,7 +2,7 @@
 .navbar{
     background-color: white !important;
 }
-div ul li a, .head-title{
+div ul li a, .head-title, a{
     color: var(--blue);
 }
 .head-title{
