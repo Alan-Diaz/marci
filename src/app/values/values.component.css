@@ -16,5 +16,10 @@ p{
     font-style: italic;
     text-align: center;
 }
+.values-text{
+
+    font-weight: 600;
+    font-size: 1.5rem;
+}
 
 
