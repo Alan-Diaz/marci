@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { environment } from '../../environments/environments';
 @Component({
   selector: 'app-pre-footer',
   imports: [],
@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class PreFooterComponent {
 
+  phone =environment.phone;
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { environment } from '../../environments/environments';
 @Component({
   selector: 'app-footer',
   imports: [],
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  phone =environment.phone;
 }

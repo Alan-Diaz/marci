@@ -22,3 +22,13 @@
         display: none !important;
     }
 }
+.whatsapp-float {
+  position: fixed;
+  width: 5.5rem;
+  height: 5.5rem;
+  bottom: 3rem;
+  right: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 999;
+}

@@ -6,7 +6,7 @@ import { ServicesMktComponent } from './services-mkt/services-mkt.component';
 import { ValuesComponent } from './values/values.component';
 import { FooterComponent } from './footer/footer.component';
 import { WorkflowComponent } from './workflow/workflow.component';
-
+import { environment } from '../environments/environments';
 @Component({
   selector: 'app-root',
   imports: [
@@ -22,5 +22,6 @@ import { WorkflowComponent } from './workflow/workflow.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'soma';
+  phone = environment.phone;
+  title = 'Marci';
 }

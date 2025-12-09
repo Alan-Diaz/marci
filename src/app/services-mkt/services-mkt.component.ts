@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { environment } from '../../environments/environments';
 @Component({
   selector: 'app-services-mkt',
   imports: [],
@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class ServicesMktComponent {
 
+  phone =environment.phone;
 }
