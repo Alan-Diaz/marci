@@ -1,8 +1,12 @@
 .footer-full {
-  width: 100vw;          /* ocupa el ancho total de la pantalla */
-  margin-left: 50% !important;
-  transform: translateX(-50%);  /* elimina el padding del container padre */
+    /* elimina el padding del container padre */
   background: #e0e0e0;   /* gris claro */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 .img-square {
   width: 20px;     /* tu tamaño */

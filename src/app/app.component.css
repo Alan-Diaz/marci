@@ -1,8 +1,5 @@
-.footer{
-    height: 50px;
-    background-color: var(--dark-green);
-}
 
+/* 
 @media (max-width: 1000px) {
     .desktop-only {
         display: none !important;
@@ -21,7 +18,7 @@
     .mobile {
         display: none !important;
     }
-}
+} */
 .whatsapp-float {
   position: fixed;
   width: 5.5rem;
