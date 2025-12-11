@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Product } from '../models/product.model'; 
-import { Optional } from '../models/optional.model'; 
 import { BehaviorSubject } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
 export class ProductsService {
-
+/*
   private opSubjec = new BehaviorSubject<Optional[]>([]);
   opSub$ = this.opSubjec.asObservable();
   private optionals : Optional[] = [];
@@ -43,6 +41,6 @@ export class ProductsService {
   }
 
 
-
+*/
 
 }

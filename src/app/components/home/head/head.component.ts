@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Product } from '../models/product.model';
-import { environment } from '../../environments/environments';
-import { ProductsService } from '../services/products.service';
+import { environment } from '../../../../environments/environments';
+import { ProductsService } from '../../../services/products.service';
 @Component({
   selector: 'app-head',
   imports: [],
@@ -17,9 +17,9 @@ export class HeadComponent implements OnInit {
   constructor(private productService: ProductsService) {}
 
   ngOnInit(): void {
-    this.productService.getProducts().subscribe(data => {
+   /* this.productService.getProducts().subscribe(data => {
       this.products = data;
-    });
+    });*/
   }
 
 	showNavigationArrows = false;
