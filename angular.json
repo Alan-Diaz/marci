@@ -25,7 +25,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/sitemap.xml"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
