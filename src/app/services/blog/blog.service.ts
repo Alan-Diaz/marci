@@ -13,7 +13,7 @@ export class BlogService {
   private opSubjec = new BehaviorSubject<Blog[]>([]);
   opSub$ = this.opSubjec.asObservable();
   private blogs : Blog[] = [];
-  private assetsUrl: string = "assets/products/blogs.json"
+  private assetsUrl: string = "assets/products/blogs.json";
 
     constructor(private http: HttpClient) {
     this.opSub$ = this.http.get<Blog[]>(this.assetsUrl);
