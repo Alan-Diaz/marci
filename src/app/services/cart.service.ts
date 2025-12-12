@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Cart } from '../models/cart.model';
 import { Product } from '../models/product.model';
-import { Optional } from '../models/optional.model';
+import { Optional } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { DeliveryInfo } from '../models/deliveryInfo';
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
-  private deliveryInfo : DeliveryInfo = new DeliveryInfo();
+ /* private deliveryInfo : DeliveryInfo = new DeliveryInfo();
   private cartSubject = new BehaviorSubject<Cart>(new Cart([]));
   cartSub$ = this.cartSubject.asObservable();
 
@@ -94,7 +94,7 @@ export class CartService {
 
     return urlWhatsApp;
   }
-
+*/
 
 
 }

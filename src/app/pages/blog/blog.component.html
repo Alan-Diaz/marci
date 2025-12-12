@@ -1,1 +1,20 @@
-<p>blog works!</p>
+<div class="row d-flex justify-content-center mt-4">
+    <h3>Recientes</h3>
+    <div class="col-12 col-md-11 mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img [src]="mainBlog.img" class="img-fluid img" alt="">
+            </div>
+            <div class="col-12  col-md-6">
+                <div><span>{{mainBlog.date}}</span>  <span>{{mainBlog.label_main}}</span>  <span>{{mainBlog.label_secondary}}</span></div>
+                <h4>{{mainBlog.title}}</h4>
+                <p>
+                    {{mainBlog.text | slice:0:350 }}...
+                </p>
+                <div>
+                    <a href="">Leer Articulo <img src="assets/img/arrow.svg" class="img-fluid arrow" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

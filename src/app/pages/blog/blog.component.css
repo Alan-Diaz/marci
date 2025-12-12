@@ -1,0 +1,11 @@
+h3{
+    color: var(--blue);
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.arrow{
+    width: 3%;
+    height: auto;
+}

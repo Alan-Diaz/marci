@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
-import { Product } from '../models/product.model';
+import { Product } from '../../../models/product.model';
 import { environment } from '../../../../environments/environments';
-import { ProductsService } from '../../../services/products.service';
 @Component({
   selector: 'app-head',
   imports: [],
@@ -12,14 +11,10 @@ import { ProductsService } from '../../../services/products.service';
 export class HeadComponent implements OnInit {
 
   phone =environment.phone;
-  products: Product[] = [];
 
-  constructor(private productService: ProductsService) {}
+  constructor() {}
 
   ngOnInit(): void {
-   /* this.productService.getProducts().subscribe(data => {
-      this.products = data;
-    });*/
   }
 
 	showNavigationArrows = false;
