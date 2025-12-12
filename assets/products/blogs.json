@@ -1,0 +1,34 @@
+
+[
+    {
+        "id":0,
+        "title": "Meta Andromeda: qué es y cómo mejora tus campañas inmobiliarias en 2024–2025",
+        "text": "En 2024, Meta presentó Andromeda, la actualización más grande en la historia de su sistema publicitario. No es una mejora más: es una reconstrucción completa del motor que decide cómo, cuándo y a quién mostrar anuncios. Y para quienes gestionamos campañas, especialmente en sectores como el inmobiliario, esto cambió las reglas del juego. Andromeda es una nueva arquitectura de inteligencia artificial diseñada para optimizar el rendimiento, mejorar la calidad de los leads y hacer más eficiente la inversión en publicidad, incluso con presupuestos pequeños. Meta la describe como “el nuevo cerebro detrás de Meta Ads”.",
+        "img": "assets/img/andromeda.webp",
+        "date":"9 jul 2025",
+        "label_main": "Marketing",
+        "label_secondary": "Noticias",
+        "sub_texts":[
+                {
+                    "title": "¿Qué es exactamente Andromeda?",
+                    "text": "Es la tecnología que reemplaza al sistema tradicional de entrega de anuncios. Está construida sobre modelos de IA más parecidos a los grandes LLM (tipo GPT), capaces de procesar volúmenes enormes de señales, combinaciones creativas, patrones de usuario y probabilidades de conversión. Es decir que es la inteligencia que predice qué usuario tiene más chances de comprar, de dejar su contacto, de confiar su propiedad y ajusta toda la campaña dinámica e instantáneamente."
+                },
+                {
+                    "title": "¿Qué cambia frente al sistema anterior?",
+                    "text": "Con la llegada de Andrómeda, Meta reemplaza su antiguo sistema de optimización —basado en modelos tradicionales de machine learning— por una tecnología más avanzada y veloz. Este nuevo motor utiliza modelos más grandes y rápidos, lo que se traduce en decisiones más precisas y tiempos de respuesta menores. Además, Andrómeda aprende entre campañas y entre cuentas, no solo dentro de una sola campaña, lo que permite aprovechar más datos y mejorar el rendimiento global. También predice la intención de los usuarios con menos información, beneficiando especialmente a cuentas con poco volumen o anunciantes que recién comienzan. El sistema se vuelve más eficiente incluso con menor inversión, es decir con menos plata por campaña, optimizando mejor cada dólar gastado. Otro cambio importante es que ajusta las creatividades con mucha más rapidez, permitiendo detectar qué piezas funcionan mejor en menos tiempo. Finalmente, Andrómeda reduce la volatilidad del costo por resultado, dando más estabilidad y previsibilidad a las campañas. Todo esto representa para nosotros más estabilidad, mayor calidad y un mejor rendimiento por cada dólar invertido, lo que se traduce en publicidad más sólida, escalable y rentable."
+                },
+                {
+                    "title": "Beneficios concretos de Andromeda",
+                    "text": "Los beneficios concretos de Andrómeda se reflejan directamente en el rendimiento y la estabilidad de las campañas a largo plazo, como todo dentro del real state. En primer lugar, permite mejor rendimiento incluso con presupuestos bajos, ya que Meta ahora puede optimizar campañas desde apenas 1 a 3 dólares diarios sin que el costo por lead aumente de manera descontrolada, algo valioso para emprendedores, pymes e inmobiliarias. Identifica patrones de comportamiento que antes pasaban desapercibidos y elimina la necesidad de múltiples capas de segmentación(En edad, sexo, territorio donde vive, entre otras segmentaciones). También genera leads más calificados, ya que la IA aprende qué señales indican que una persona está realmente interesada, ya sea para enviar un mensaje, dejar su número o pedir más información. Otro beneficio clave es que permite campañas más estables, reduciendo los picos y caídas en el costo por resultado y haciendo más predecible la inversión. Finalmente, Andrómeda logra una mejor combinación de creatividades(videos, imagenes, etc), analizando variaciones hasta diez veces más rápido y optimizándolas automáticamente para mostrar siempre las piezas más efectivas."
+                },
+                {
+                    "title": "¿Por qué Andromeda es especialmente buena para inmobiliarias e inmobiliarios?",
+                    "text": "Andrómeda funciona especialmente bien para inmobiliarias porque ayuda a resolver tres problemas típicos del sector: los leads suelen ser caros, no siempre son de buena calidad y los presupuestos muchas veces son limitados. Con este nuevo sistema,logra mejorar la calidad de los formularios y mensajes que llegan, porque identifica mejor a las personas que realmente tienen interés en comprar. También utiliza señales de intención para distinguir entre alguien que solo está curioseando y alguien que tiene una necesidad de comprar propiedades, ahí está la clave. Además, Andrómeda permite generar buen volumen de consultas incluso con presupuestos chicos, lo que hace que cada peso invertido rinda mucho más. De hecho, una inmobiliaria ahora puede invertir entre 30 y 50 dólares y conseguir resultados que antes solo obtenía con 200, lo que mejora muchísimo la relación entre costo y resultados."
+                },
+                {
+                    "title": "Conclusión",
+                    "text": "La competencia en ads está subiendo, pero al mismo tiempo Meta está dando herramientas cada vez más potentes para que negocios de todos los tamaños puedan competir. Andromeda trae estabilidad, calidad y eficiencia, incluso con inversiones pequeñas. Para inmobiliarias, desarrolladores y cualquier negocio que dependa de generar consultas de calidad, este es el mejor momento para aprovechar la nueva IA de Meta."
+                }
+        ]
+    }
+]
