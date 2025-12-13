@@ -6,6 +6,9 @@ import { environment } from '../environments/environments';
 
 import { isPlatformBrowser } from '@angular/common';
 import { getAnalytics, setUserId } from 'firebase/analytics';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
+import { SeoService } from './services/seo/seo.service';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +25,20 @@ export class AppComponent {
   title = 'Marci';
 
   private platformId = inject(PLATFORM_ID);
-
+constructor(
+    private router: Router,
+    private seo: SeoService
+  ) {
+    this.router.events
+      .pipe(filter(e => e instanceof NavigationEnd))
+      .subscribe((event: any) => {
+        const canonicalUrl = environment.baseUrl + event.urlAfterRedirects;
+        const url = canonicalUrl;
+        this.seo.setCanonical(url);
+        this.seo.applyNoIndex();
+        this.seo.applyRobots();
+      });
+  }
   ngOnInit() {
     if (!isPlatformBrowser(this.platformId)) return; // evita errores SSR
 

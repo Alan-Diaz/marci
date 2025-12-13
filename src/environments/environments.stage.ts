@@ -1,6 +1,6 @@
 export const environment = {
     phone: '+541170635699',
     production: false,
-    baseUrl: 'http://localhost:4200',
+    baseUrl: 'https://usuario.github.io/nombre-repo',
     noIndex: true
 };

@@ -16,7 +16,9 @@
     color: #ffffff;
     font-weight: 700;
 }
-
+h3{
+  font-size: 2.5rem;
+}
 .full-width-section p {
     color: #ffffff;
     font-style: italic;

@@ -2,7 +2,7 @@
 [
     {
         "id":0,
-        "title": "Meta Andromeda: qué es y cómo mejora tus campañas inmobiliarias en 2024–2025",
+        "title": "Meta Andromeda: qué es y cómo mejora marketing inmobiliario en 2025",
         "text": "En 2024, Meta presentó Andromeda, la actualización más grande en la historia de su sistema publicitario. No es una mejora más: es una reconstrucción completa del motor que decide cómo, cuándo y a quién mostrar anuncios. Y para quienes gestionamos campañas, especialmente en sectores como el inmobiliario, esto cambió las reglas del juego. Andromeda es una nueva arquitectura de inteligencia artificial diseñada para optimizar el rendimiento, mejorar la calidad de los leads y hacer más eficiente la inversión en publicidad, incluso con presupuestos pequeños. Meta la describe como “el nuevo cerebro detrás de Meta Ads”.",
         "img": "assets/img/andromeda.webp",
         "date":"9 jul 2025",
@@ -11,10 +11,10 @@
         "sub_texts":[
                 {
                     "title": "¿Qué es exactamente Andromeda?",
-                    "text": "Es la tecnología que reemplaza al sistema tradicional de entrega de anuncios. Está construida sobre modelos de IA más parecidos a los grandes LLM (tipo GPT), capaces de procesar volúmenes enormes de señales, combinaciones creativas, patrones de usuario y probabilidades de conversión. Es decir que es la inteligencia que predice qué usuario tiene más chances de comprar, de dejar su contacto, de confiar su propiedad y ajusta toda la campaña dinámica e instantáneamente."
+                    "text": "Es la tecnología que reemplaza al marketing tradicional de entrega de anuncios. Está construida sobre modelos de IA más parecidos a los grandes LLM (tipo GPT), capaces de procesar volúmenes enormes de señales, combinaciones creativas, patrones de usuario y probabilidades de conversión. Es decir que es la inteligencia que predice qué usuario tiene más chances de comprar, de dejar su contacto, de confiar su propiedad y ajusta toda la campaña dinámica e instantáneamente."
                 },
                 {
-                    "title": "¿Qué cambia frente al sistema anterior?",
+                    "title": "¿Qué cambia frente al marketing anterior?",
                     "text": "Con la llegada de Andrómeda, Meta reemplaza su antiguo sistema de optimización —basado en modelos tradicionales de machine learning— por una tecnología más avanzada y veloz. Este nuevo motor utiliza modelos más grandes y rápidos, lo que se traduce en decisiones más precisas y tiempos de respuesta menores. Además, Andrómeda aprende entre campañas y entre cuentas, no solo dentro de una sola campaña, lo que permite aprovechar más datos y mejorar el rendimiento global. También predice la intención de los usuarios con menos información, beneficiando especialmente a cuentas con poco volumen o anunciantes que recién comienzan. El sistema se vuelve más eficiente incluso con menor inversión, es decir con menos plata por campaña, optimizando mejor cada dólar gastado. Otro cambio importante es que ajusta las creatividades con mucha más rapidez, permitiendo detectar qué piezas funcionan mejor en menos tiempo. Finalmente, Andrómeda reduce la volatilidad del costo por resultado, dando más estabilidad y previsibilidad a las campañas. Todo esto representa para nosotros más estabilidad, mayor calidad y un mejor rendimiento por cada dólar invertido, lo que se traduce en publicidad más sólida, escalable y rentable."
                 },
                 {

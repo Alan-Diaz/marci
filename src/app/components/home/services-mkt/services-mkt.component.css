@@ -37,6 +37,9 @@
 .card-servicio h4 {
   font-weight: 700;
 }
+h3{
+  font-size: 3rem;
+}
 
 .card-servicio p {
   margin: 0;

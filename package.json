@@ -8,7 +8,7 @@
       "watch": "ng build --watch --configuration development",
       "test": "ng test",
       "buildProd": "ng build --configuration production",
-      "buildStage": "ng build --configuration production --base-href=/marci-stage/",
+      "buildStage": "ng build --configuration stage --base-href=/marci-stage/",
       "deployProd": "npx angular-cli-ghpages --dir=dist/soma/browser --branch=gh-pages --repo=https://github.com/alan-diaz/marci.git",
       "deployStage": "npx angular-cli-ghpages --dir=dist/soma/browser --branch=gh-pages --repo=https://github.com/alan-diaz/marci-stage.git",
       "pp": "npm run buildProd && npm run deployProd",
